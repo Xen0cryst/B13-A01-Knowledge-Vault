@@ -312,3 +312,45 @@ ul {
     font-size: 12px;
     color: #a0aec0;
 }
+
+.footer {
+    background-color: rgba(0, 25, 49, 1);
+    color: white;
+    padding: 60px 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.social-label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 20px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    background: rgba(0, 25, 49, 1);
+    color: #718096;
+}
